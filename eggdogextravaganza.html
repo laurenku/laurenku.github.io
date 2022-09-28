@@ -6,10 +6,41 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="./css/default.css">
 	</head>
-	<body>
-		This page is under construction.
-		
+
+  <script>
+    var nameCount = 0;
+    names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92; Lauren Kung /(•ㅅ•)&#92;'];
+    // names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92;   Lauren Kung   /(•ㅅ•)&#92;', '(•ㅅ•)    Lauren Kung    (•ㅅ•)'];
+    const interval = setInterval(function() {
+      document.getElementById('name').innerHTML = names[nameCount%names.length];
+      nameCount++;
+    }, 1000);
+  </script>
+
+  <center>
+	  <h2 id='name'>￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣</h2>
+		[<a href="./index.html">Projects</a>]
+		[<a href="./about.html">About</a>]
+		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
+	
 		<hr>
-		<a href="./index.html">Home</a>
-	</body>
+
+		<body>
+			This page is under construction.
+			
+		</body>
+
+		<hr>
+	
+	  [<a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>]
+		[<a href="https://www.linkedin.com/in/laurenku/" target="_blank">LinkedIn</a>]
+		[<a href="https://github.com/laurenku" target="_blank">GitHub</a>]
+	  <!-- <br>
+		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
+		<br>
+		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<br>
+		<br>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+	</center>
 </html>

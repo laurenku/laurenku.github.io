@@ -6,17 +6,48 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="./css/default.css">
 	</head>
-	<body>
-		<span class="h1">Snail Mail</span>
+
+  <script>
+    var nameCount = 0;
+    names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92; Lauren Kung /(•ㅅ•)&#92;'];
+    // names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92;   Lauren Kung   /(•ㅅ•)&#92;', '(•ㅅ•)    Lauren Kung    (•ㅅ•)'];
+    const interval = setInterval(function() {
+      document.getElementById('name').innerHTML = names[nameCount%names.length];
+      nameCount++;
+    }, 1000);
+  </script>
+
+  <center>
+	  <h2 id='name'>￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣</h2>
+		[<a href="./index.html">Projects</a>]
+		[<a href="./about.html">About</a>]
+		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
+	
 		<hr>
-		Snail Mail is a web app that allows users to send text messages one character at a time, once an hour. It is a critical reflection and conceptual experiment about communication, specifically texting. When approaching this project, I thought about how I could change text messaging to make messages more meaningful. I consume so much media that I sometimes forget what a text says immediately after sending or reading it. Originally, I planned on making a messaging app that allows users to send only one message per 24 hours. Additionally, I wanted users to wait 24 hours to see their message. I simplified the execution of this concept while focusing on making texts more precious and text messaging more archaic.
-		<br><br>
-		When communicating through text, many people fixate over the time it takes for someone to respond to their message or the amount of texts someone sends them and try to extract meaning from those behaviors. How can we redesign and simplify texting to promote less fixation? This project was created with JavaScript and HTML, using a cron job to periodically schedule the text messages and the Twilio Messaging API to send the text messages.
+
+		<div class="content" style="text-align:left">
+			<span class="h1">Snail Mail</span>
+			
+			Snail Mail is a web app that allows users to send text messages one character at a time, once an hour. It is a critical reflection and conceptual experiment about communication, specifically texting. When approaching this project, I thought about how I could change text messaging to make messages more meaningful. I consume so much media that I sometimes forget what a text says immediately after sending or reading it. Originally, I planned on making a messaging app that allows users to send only one message per 24 hours. Additionally, I wanted users to wait 24 hours to see their message. I simplified the execution of this concept while focusing on making texts more precious and text messaging more archaic.
+			<br><br>
+			When communicating through text, many people fixate over the time it takes for someone to respond to their message or the amount of texts someone sends them and try to extract meaning from those behaviors. How can we redesign and simplify texting to promote less fixation? This project was created with JavaScript and HTML, using a cron job to periodically schedule the text messages and the Twilio Messaging API to send the text messages.
+			
 		
+
 		<hr>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/LR2hos1od34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/LR2hos1od34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
 		<hr>
-		<a href="./index.html">Home</a>
-	</body>
+	  [<a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>]
+		[<a href="https://www.linkedin.com/in/laurenku/" target="_blank">LinkedIn</a>]
+		[<a href="https://github.com/laurenku" target="_blank">GitHub</a>]
+	  <!-- <br>
+		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
+		<br>
+		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<br>
+		<br>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+	</center>
 </html>

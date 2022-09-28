@@ -6,7 +6,43 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="./css/default.css">
 	</head>
-	<body>
+
+	<!--
+  	<div class="bunny">(bunny here)</div>
+		<div class="name">Lauren Kung</div>
+		<div class="bunny">(bunny here)</div>
+
+		css
+		.bunny {
+		display: inline-block
+
+		margin: 2px;
+		padding: 2px;
+
+
+  -->
+
+  <script>
+    var nameCount = 0;
+    names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92; Lauren Kung /(•ㅅ•)&#92;'];
+    // names = ['￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣', '/(•ㅅ•)&#92;   Lauren Kung   /(•ㅅ•)&#92;', '(•ㅅ•)    Lauren Kung    (•ㅅ•)'];
+    const interval = setInterval(function() {
+      document.getElementById('name').innerHTML = names[nameCount%names.length];
+      nameCount++;
+    }, 1000);
+  </script>
+
+
+
+  <div class = "header">
+	  <h2 id='name'>￣(•ㅅ•)￣ Lauren Kung ￣(•ㅅ•)￣</h2>
+		[<b>Projects</b>]
+		[<a href="./about.html">About</a>]
+		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
+		<hr>
+	</div>
+
+	<div class = "content">
 		<br>
 		<br>
 		<a href="./enchantedobjects.html">Enchanted Objects</a>
@@ -25,13 +61,28 @@
 		<br>
 		<a href="./leftovers.html">Leftovers</a>
 		<br>
-		<a href="./images/myheartisinthework.mp4">My heart is in the work</a>
+		<a href="./images/myheartisinthework.mp4" target="_blank">My heart is in the work</a>
 		<br>
 		<br>
 		<br>
 		<br>
 		<br>
 		<br>
-		<a href="./about.html">About</a>
-	</body>
+	</div>
+		
+	<div class = "footer">
+		<hr>
+		
+	  [<a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>]
+		[<a href="https://www.linkedin.com/in/laurenku/" target="_blank">LinkedIn</a>]
+		[<a href="https://github.com/laurenku" target="_blank">GitHub</a>]
+	  <!-- <br>
+		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
+		<br>
+		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<br>
+		<br>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+	</div>
+
 </html>

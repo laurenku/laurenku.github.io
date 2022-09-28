@@ -28,6 +28,24 @@ font-size: 11pt;
 font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
+.header {
+	text-align:center;
+	width: 40vw;
+	margin: 0 auto;
+}
+
+.content {
+	text-align:center;
+	width: 40vw;
+	margin: 0 auto;
+}
+
+.footer {
+	text-align:center;
+	width: 40vw;
+	margin: 0 auto;
+}
+
 .inline {
 padding: 1px 4px;
 }
@@ -35,6 +53,12 @@ padding: 1px 4px;
 .block {
 border-left: 2px solid #808; 
 padding:10px; 
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
 }
 
 table {
