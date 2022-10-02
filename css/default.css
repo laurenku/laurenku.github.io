@@ -38,6 +38,7 @@ font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	text-align:center;
 	width: 40vw;
 	margin: 0 auto;
+
 }
 
 .footer {
@@ -56,6 +57,12 @@ padding:10px;
 }
 
 iframe {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+
+video {
 	aspect-ratio: 16 / 9;
 	height: 100%;
 	width: 100%;
