@@ -15,8 +15,26 @@ margin-bottom:8px;
 }
 
 body {
-background:#fff;
-color:#000;
+	background:#fff;
+	color:#000;
+	/*TEST MODE*/
+	/*color: pink;
+	font-family:  Helvetica;*/
+}
+
+/*a.visited{
+	color: pink;
+	text-decoration: none;
+}*/
+
+a.title {
+	color: black;
+	text-decoration: none;
+}
+
+a.title:visited {
+	color: black;
+	text-decoration: none;
 }
 
 .code { 
@@ -30,20 +48,20 @@ font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
 .header {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 }
 
 .content {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 
 }
 
 .footer {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 }
 

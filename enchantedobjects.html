@@ -9,17 +9,19 @@
 
   <script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#92;', '(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 400);
   </script>
 
 
 
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+  	<a class="title" href="./index.html">
+	    <span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -28,9 +30,8 @@
 
 	<div class="content" style="text-align:left">
 		<span class="h1">Enchanted Objects</span>
-		<!-- <h1>Enchanted Objects</h1> -->
 
-		In Enchanted Objects, I’m interested in examining how technologies exist outside of a focus on efficiency, ergonomics, and simplicity and satisfy some fundamental human desires. Through the trials of reviving a Nabaztag (an ambient electronic device that was released on the market in 2006) I engage with a deliberate lack of functionality. Furthermore, I consider the dominant role of cuteness in consumer society by heightening and compromising the cuteness of my Nabaztag.
+		In <i>Enchanted Objects</i>, I’m interested in examining how technologies exist outside of a focus on efficiency, ergonomics, and simplicity and satisfy some fundamental human desires. Through the trials of reviving a Nabaztag (an ambient electronic device that was released on the market in 2006) I engage with a deliberate lack of functionality. Furthermore, I consider the dominant role of cuteness in consumer society by heightening and compromising the cuteness of my Nabaztag.
 		<br><br>
 		This project was supported in part by funding from the Carnegie Mellon University <a href="https://www.cmu.edu/interdisciplinary/programs/" target="_blank">BXA Intercollege Degree Programs</a>.
 		<br><br>
@@ -45,10 +46,12 @@
 		<video src="./images/ears.mp4" width=640 height=360 controls></video>
 
 		<hr>
-		Sweater and companion cut and hand sewn from the same thrifted sweater. Designed patterns...
-		<br><br>
 		
-		<div style="text-align:left;width: 25vw;;margin: 0 auto;">
+		<div style="text-align:left;width: 400px;margin: 0 auto;">
+			<img src="./images/companionedited.jpg" width=100%>
+			Sweater and companion cut and hand sewn from the same thrifted sweater. Designed patterns...
+		  <br><br>
+		  <!-- <i><span class="inline code">Mouseover</span> the images to see more of the sweater!</i>
 			<img src="./images/sweater1.jpg" id="openEars" width=100%>
 
 			<script language="javascript">
@@ -61,13 +64,14 @@
 				imgTag.addEventListener("mouseout", function (event) {
 				 	event.target.src = "./images/sweater1.jpg";
 				});
-			</script>
+			</script> -->
+			<img src="./images/sweater1.gif" width=100%>
 			
 			<br>
 			Mouse over the image to use the zippers on the sweater! ... heart shaped .. allow for mobility and detachability of ears.
 			<br><br>
 			
-			<img src="./images/sweater3.jpg" id="turnEars" width=100%>
+			<!-- <img src="./images/sweater3.jpg" id="turnEars" width=100%>
 
 			<script language="javascript">
 				var imgTag = document.getElementById("turnEars");
@@ -79,13 +83,14 @@
 				imgTag.addEventListener("mouseout", function (event) {
 				 	event.target.src = "./images/sweater3.jpg";
 				});
-			</script>
-			
+			</script> -->
+			<img src="./images/sweater2.gif" width=100%>
+
 			<br>
 			allow for mobility
 			<br><br>
 
-			<img src="./images/sweater4.jpg" id="turnBody" width=100%>
+			<!-- <img src="./images/sweater4.jpg" id="turnBody" width=100%>
 
 			<script language="javascript">
 				var imgTag = document.getElementById("turnBody");
@@ -97,17 +102,18 @@
 				imgTag.addEventListener("mouseout", function (event) {
 				 	event.target.src = "./images/sweater4.jpg";
 				});
-			</script>
+			</script> -->
+			<img src="./images/sweater3.gif" width=100%>
 
 			<br>
 			The zipper on the back allows the sweater to be taken on and off, and makes it possible for the Rabbit to connect to power while the sweater is on.
 			<br>
 		</div>
 		
-		<hr>
+		<!-- <hr>
 		<span class="h3">Process</span>
 		<image src="./images/sketch1.jpg" width=300></image>
-		<image src="./images/sketch2.jpg" width=300></image>
+		<image src="./images/sketch2.jpg" width=300></image> -->
 
 	</div>
 
@@ -121,8 +127,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>

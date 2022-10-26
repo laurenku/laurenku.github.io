@@ -21,6 +21,15 @@ letter-spacing:normal!important;
 font-family:Times New Roman, serif!important;
 }
 
+a.title {
+	text-decoration: none;
+}
+
+a.title:visited {
+	color: black;
+	text-decoration: none;
+}
+
 .code { 
 white-space:pre-wrap;
 background: #e6e6e6; 
@@ -31,19 +40,19 @@ font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
 .header {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 }
 
 .content {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 }
 
 .footer {
 	text-align:center;
-	width: 40vw;
+	width: 500px;
 	margin: 0 auto;
 }
 

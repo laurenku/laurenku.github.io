@@ -9,17 +9,19 @@
 	
   <script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 5000);
   </script>
 
 
 
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+  	<a class="title" href="./index.html">
+	    <span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -30,34 +32,42 @@
 
 	<div class="content">
 		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<img style="max-width:400px;" id="imgClickAndChange" src="./images/leftovers1.jpg">
+		<div style="text-align:left;width: 400px;;margin: 0 auto;">
+			<img width=100% src="./images/leftovers.gif">
 
-		<!-- <script>
-	    var imageCount = 0;
-	    images = ["./images/leftovers1.jpg", "./images/leftovers2.jpg", "./images/leftovers3.jpg"];
-	    
-	    const interval = setInterval(function() {
-	      document.getElementById("leftovers").innerHTML = images[imageCount%images.length];
-	      imageCount++;
-	    }, 1000);
-  	</script> -->
-		
-		<script language="javascript">
-			var images = ["./images/leftovers1.jpg", "./images/leftovers2.jpg", "./images/leftovers3.jpg"];
-			var imgState = 0;
-			var imgTag = document.getElementById("imgClickAndChange");
+			<!-- <img href="" title="Click to eat!" width=100% id="imgClickAndChange" src="./images/leftovers1.jpg"> -->
 
-			imgTag.addEventListener("click", function (event) {
-			  imgState = (++imgState % 3);
-				event.target.src = images[imgState];
-			});
-		</script>
+			<!-- <script>
+		    var imageCount = 0;
+		    images = ["./images/leftovers1.jpg", "./images/leftovers2.jpg", "./images/leftovers3.jpg"];
+		    
+		    const interval = setInterval(function() {
+		      document.getElementById("leftovers").innerHTML = images[imageCount%images.length];
+		      imageCount++;
+		    }, 1000);
+	  	</script> -->
+			
+			<!-- <img width=100% id="imgClickAndChange" src="./images/leftovers1.jpg">
 
-		<br>
-		<br>
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<img style="max-width:400px;" src="./images/leftovers.jpg">
-		<p>
+			<script language="javascript">
+				var images = ["./images/leftovers1.jpg", "./images/leftovers2.jpg", "./images/leftovers3.jpg"];
+				var imgState = 0;
+				var imgTag = document.getElementById("imgClickAndChange");
+
+				imgTag.addEventListener("click", function (event) {
+				  imgState = (++imgState % 3);
+					event.target.src = images[imgState];
+				});
+			</script> -->
+
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<img width=100% src="./images/leftovers.jpg">
+			</div>
+			&nbsp;
 	</div>
 	
 	<div class="footer">
@@ -70,8 +80,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>

@@ -10,17 +10,18 @@
 
 	<script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 5000);
   </script>
 
 
-
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+  	<a class="title" href="./index.html">
+	    <span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -31,7 +32,13 @@
 	<div class="content" style="text-align:left">
 		<span class="h1">Morning Routine</span>
 		
-		This page is under construction.
+		<i>Morning Routine</i> is a kinetic sculpture that incorporates found objects, including a bathroom sink, a soap dispenser, and a toothpaste tube. These objects are modified and mobilized: the soap dispenser pump moves up and down (via a linear actuator and a Servo Motor), water flows out of the faucet (via a water pump attached to the sink), and the toothpaste tube inflates and deflates (via an air pump). These gestures are anthropomorphic and evocative of breathing and heaving. All of the motors are attached to an Arduino board, either directly or through relays. The speed of the movements are controlled by the code uploaded to the Arduino - at the beginning, the movements are slow and small, and after a couple minutes they become fast and manic.
+
+		<br>
+		<br>
+
+		I designed and constructed a wooden base to hold the sink and hide all of the electronic components. I also learned how to drill holes in ceramic!
+
 		
 		<hr>
 		<video src="./images/morningroutine.mp4" width=640 height=360 controls></video>
@@ -48,8 +55,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>

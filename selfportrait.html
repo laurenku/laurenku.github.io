@@ -9,17 +9,19 @@
 
 	<script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 5000);
   </script>
 
 
 
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+  	<a class="title" href="./index.html">
+	    <span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -28,16 +30,18 @@
 
 	<div class="content">
 		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<img style="width:40vw;" src="./images/selfportrait1.jpg">
+		<img width=100% src="./images/selfportrait1.jpg">
 		<br>
 		<br>
 		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<img style="width:40vw;" src="./images/selfportrait2.jpg">
+		<br>
+		<img width=100% src="./images/selfportrait2.jpg">
 		<br>
 		<br>
 		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;<img style="width:40vw;" src="./images/selfportrait3.jpg">
-		<p>
+		<br>
+		<img width=100% src="./images/selfportrait3.jpg">
+		&nbsp;
 	</div>
 
 	<div class="footer">
@@ -50,8 +54,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>

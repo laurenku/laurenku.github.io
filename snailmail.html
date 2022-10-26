@@ -9,17 +9,19 @@
 
   <script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 5000);
   </script>
 
 
 
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+  	<a class="title" href="./index.html">
+	    <span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -30,7 +32,7 @@
 	<div class="content" style="text-align:left">
 		<span class="h1">Snail Mail</span>
 		
-		Snail Mail is a web app that allows users to send text messages one character at a time, once an hour. It is a critical reflection and conceptual experiment about communication, specifically texting. When approaching this project, I thought about how I could change text messaging to make messages more meaningful. I consume so much media that I sometimes forget what a text says immediately after sending or reading it. Originally, I planned on making a messaging app that allows users to send only one message per 24 hours. Additionally, I wanted users to wait 24 hours to see their message. I simplified the execution of this concept while focusing on making texts more precious and text messaging more archaic.
+		<i>Snail Mail</i> is a web app that allows users to send text messages one character at a time, once an hour. It is a critical reflection and conceptual experiment about communication, specifically texting. When approaching this project, I thought about how I could change text messaging to make messages more meaningful. I consume so much media that I sometimes forget what a text says immediately after sending or reading it. Originally, I planned on making a messaging app that allows users to send only one message per 24 hours. Additionally, I wanted users to wait 24 hours to see their message. I simplified the execution of this concept while focusing on making texts more precious and text messaging more archaic.
 		<br><br>
 		When communicating through text, many people fixate over the time it takes for someone to respond to their message or the amount of texts someone sends them and try to extract meaning from those behaviors. How can we redesign and simplify texting to promote less fixation? This project was created with JavaScript and HTML, using a cron job to periodically schedule the text messages and the Twilio Messaging API to send the text messages.
 
@@ -47,8 +49,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>

@@ -9,17 +9,19 @@
 
   <script>
     var nameCount = 0;
-    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;', '(•ㅅ•)&nbsp;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&nbsp;(•ㅅ•)'];
+    names = ['&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;', '&#47;(•ㅅ•)&#92;&nbsp;&nbsp;&nbsp; Lauren Kung &nbsp;&nbsp;&nbsp;&#47;(•ㅅ•)&#92;'];
     const interval = setInterval(function() {
       document.getElementById('name').innerHTML = names[nameCount%names.length];
       nameCount++;
-    }, 1000);
+    }, 5000);
   </script>
 
 
 
   <div class = "header">
-	  <h2 id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</h2>
+	  <a class="title" href="./index.html">
+	  	<span class="h2" id='name'>&#175;&#175;(•ㅅ•)&#175;&#175; Lauren Kung &#175;&#175;(•ㅅ•)&#175;&#175;</span>
+	  </a>
 		[<a href="./index.html">Projects</a>]
 		[<a href="./about.html">About</a>]
 		[<a href="./lauren_kung_resume.pdf" target="_blank">Resume</a>]
@@ -31,7 +33,7 @@
 
 		Made in collaboration with <a href="https://em1lyngo.wixsite.com/portfolio">Emily Ngo</a>!
 		<br><br>
-		AR Penguin is a mobile app of an augmented reality 3D penguin that follows you around. The penguin is designed to provide a source of comfort for younger users in environments like elementary school where they may be away from their families for the first time and need extra support. To create our project, we generated a random circular path for the penguin to travel in the proximity of the user that updates when they move from place to place. The penguin follows the user with different animations based on their traveling speed.
+		<i>AR Penguin</i> is a mobile app of an augmented reality 3D penguin that follows you around. The penguin is designed to provide a source of comfort for younger users in environments like elementary school where they may be away from their families for the first time and need extra support. To create our project, we generated a random circular path for the penguin to travel in the proximity of the user that updates when they move from place to place. The penguin follows the user with different animations based on their traveling speed.
 		<br><br>
 		Developed with Unity using C# scripting and the ARCore plugin.
 
@@ -52,8 +54,8 @@
 		Around the web: <a href="https://twitter.com/laurenkungaroo" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/laurenku/">LinkedIn</a>, <a href="https://github.com/laurenku">GitHub</a>. -->
 		<br>
 		Get in touch via email: <i>laurenku@andrew.cmu.edu</i>
+		<!-- <br>
 		<br>
-		<br>
-		<i>Last updated September 25, 2022 by Lauren Kung.</i>
+		<i>Last updated September 25, 2022 by Lauren Kung.</i> -->
 	</div>
 </html>
