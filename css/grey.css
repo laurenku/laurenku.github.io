@@ -16,9 +16,10 @@ margin-bottom:8px;
 body {
 	background:#b7b7bc;
 	color:#000;
-	text-shadow:0px 0px 1px rgba(158,150,158,0.19), 0px 0px 0px rgba(50,58,50,0.07);
+	/*text-shadow:0px 0px 1px rgba(158,150,158,0.19), 0px 0px 0px rgba(50,58,50,0.07);*/
 	letter-spacing:normal;
 	font-family:Times New Roman, serif;
+	font-weight: normal !important;
 }
 
 a.title {
